@@ -13,4 +13,5 @@
 6. Tested the model.
 
 <br><br>
+## Endpoint Screenshot
 ![image](https://github.com/RajKulk16/Mobile-Classification---Sagemaker/assets/74099005/4ea76f5e-44c8-46ab-a7cc-00dbc8f70189)
