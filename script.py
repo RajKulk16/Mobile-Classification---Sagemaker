@@ -54,24 +54,6 @@ if __name__ == "__main__":
     y_train = train_df[label]
     y_test = test_df[label]
     
-    print('Column Order: ')
-    print(features)
-    print()
-    
-    print('Label Column: ', label)
-    print()
-    
-    print("Data Shape: ")
-    print()
-    print("---- SHAPE OF TRAINING DATA (85%) ----")
-    print(X_train.shape)
-    print(y_train.shape)
-    print()
-    print("---- SHAPE OF TESTING DATA (15%) ----")
-    print(X_test.shape)
-    print(y_test.shape)
-    print()
-    
     print("Training RandomForest Model.....")
     print()
     model =  RandomForestClassifier(n_estimators=args.n_estimators, random_state=args.random_state, verbose = 3,n_jobs=-1)
