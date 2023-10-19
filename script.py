@@ -6,7 +6,6 @@ import boto3
 import pathlib
 from io import StringIO
 import argparse
-import joblib
 import os
 import numpy as np
 import pandas as pd
